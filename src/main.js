@@ -5,8 +5,7 @@ import 'es6-promise'
 
 import store from './store'
 
-Vue.config.productionTip = false
-
+console.log(router)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

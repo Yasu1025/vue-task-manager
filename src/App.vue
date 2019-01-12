@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    <router-view/>
+    <app-kbn-view />
+    <router-view />
   </div>
 </template>
 
 <script>
+import KbnLoginView from './components/templates/KbnLoginView'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {'app-kbn-view': KbnLoginView}
 }
 </script>
 
